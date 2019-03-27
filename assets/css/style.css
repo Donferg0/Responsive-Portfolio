@@ -53,10 +53,10 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  position: static;
   z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
+  margin: 0 0 50px;
   overflow: auto;
   color: #ffffff;
   background: #ffffff;
@@ -223,7 +223,8 @@ input[type=submit] {
 }
 #masthead {
   width: 100%;
-  margin: auto
+  margin: auto;
+  position: static
 }
 }
 
